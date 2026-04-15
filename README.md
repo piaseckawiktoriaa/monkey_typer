@@ -28,7 +28,6 @@ Gra stopniowo przyspiesza, zwiększając poziom trudności.
   <img src="https://github.com/user-attachments/assets/b7e2ce5e-6fc9-42aa-bafe-b7dcffcf2070" width="300"/>
   <img src="https://github.com/user-attachments/assets/47283cb1-f87f-4e47-b86b-1cea9f063d89" width="300" />
 </p>
----
 
 ## ✨ Funkcjonalności
 
