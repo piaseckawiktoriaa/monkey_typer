@@ -60,7 +60,7 @@ cmake -S . -B build
 cmake --build build
 ./build/monkey_typer
 
-*Po zbudowaniu projektu aplikację można uruchamiać również ponownie bez kompilacji:
+Po zbudowaniu projektu aplikację można uruchamiać również ponownie bez kompilacji:
 cd build
 ./monkey_typer 
 
