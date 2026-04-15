@@ -1,0 +1,27 @@
+# CLion / IntelliJ
+.idea/
+*.iml
+
+# CMake
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+Makefile
+cmake_install.cmake
+
+# Build outputs
+*.o
+*.obj
+*.out
+*.exe
+*.app
+*.dll
+*.so
+*.dylib
+
+# macOS
+.DS_Store
+
+# Logs / temp
+*.log

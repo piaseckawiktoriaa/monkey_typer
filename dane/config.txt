@@ -1,0 +1,4 @@
+font = dane/DejaVuSans.ttf
+speed = 200
+spawn = 2.5
+round = 60
