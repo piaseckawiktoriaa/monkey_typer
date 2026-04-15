@@ -40,12 +40,29 @@ Gra korzysta z pliku `config.txt`, w którym można zmienić m.in.:
 - rozmiary czcionek
 
 ## 🏆 Ranking
+Po zakończeniu rozgrywki wyświetlane jest podsumowanie zawierające:
+- nick gracza
+- liczbę poprawnie wpisanych słów
+- czas gry
 Wyniki zapisywane są w pliku: wyniki.txt
 
 ## ▶️ Uruchomienie
-1. Zainstaluj bibliotekę SFML  
-2. Otwórz projekt (np. w CLion)  
-3. Zbuduj i uruchom aplikację  
+
+### Wymagania
+- C++
+- SFML
+- CMake
+
+### Kroki
+
+```bash
+cmake -S . -B build
+cmake --build build
+./build/monkey_typer
+
+*Po zbudowaniu projektu aplikację można uruchamiać również ponownie bez kompilacji:
+cd build
+./monkey_typer 
 
 ## 📸 Gameplay
 <img width="800" height="631" alt="image" src="https://github.com/user-attachments/assets/3a952258-e4c2-42fc-8410-70cc88bf527b" />
