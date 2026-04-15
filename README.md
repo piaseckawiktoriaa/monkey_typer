@@ -1,4 +1,6 @@
 # 🐵 Monkey Typer
+![C++](https://img.shields.io/badge/C%2B%2B-17-blue)
+![SFML](https://img.shields.io/badge/SFML-graphics-green)
 
 Gra typu *typing game* napisana w języku C++ z wykorzystaniem biblioteki SFML.  
 Celem gracza jest jak najszybsze wpisywanie pojawiających się na ekranie słów.
