@@ -25,7 +25,6 @@ Gra stopniowo przyspiesza, zwiększając poziom trudności.
   <img src="https://github.com/user-attachments/assets/e25af14c-96af-4492-b46f-d87438762836" width="300"/>
   <img width="795" height="619" alt="image" src="https://github.com/user-attachments/assets/b7e2ce5e-6fc9-42aa-bafe-b7dcffcf2070" />
   <img width="798" height="625" alt="image" src="https://github.com/user-attachments/assets/47283cb1-f87f-4e47-b86b-1cea9f063d89" />
-
 </p>
 ---
 
@@ -70,12 +69,12 @@ Wyniki są zapisywane do pliku: wyniki.txt
 - SFML
 - CMake
 
-### Kroki
-
 ```bash
 cmake -S . -B build
 cmake --build build
 ./build/monkey_typer
+
+---
 
 Po zbudowaniu projektu aplikację można uruchamiać ponownie:
 ```bash
