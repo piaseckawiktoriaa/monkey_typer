@@ -48,6 +48,13 @@ Wyniki zapisywane są w pliku: wyniki.txt
 3. Zbuduj i uruchom aplikację  
 
 ## 📸 Zrzuty ekranu
+<img width="800" height="631" alt="image" src="https://github.com/user-attachments/assets/3a952258-e4c2-42fc-8410-70cc88bf527b" />
+<img width="796" height="629" alt="image" src="https://github.com/user-attachments/assets/3d8013da-9ea1-4045-bfaa-c4da8359e281" />
+<img width="794" height="622" alt="image" src="https://github.com/user-attachments/assets/e6e677b8-06f1-496c-8e50-06c1b4729937" />
+<img width="782" height="623" alt="image" src="https://github.com/user-attachments/assets/e25af14c-96af-4492-b46f-d87438762836" />
+<img width="794" height="628" alt="image" src="https://github.com/user-attachments/assets/bea47367-fd41-49f6-bb34-fa1582ce5a0b" />
+<img width="736" height="620" alt="image" src="https://github.com/user-attachments/assets/a4d0f798-0696-446e-800b-467696629a91" />
+<img width="799" height="622" alt="image" src="https://github.com/user-attachments/assets/51c98bcc-3959-4957-837a-31211e1ee96a" />
 
 
 ## 💡 Informacje
