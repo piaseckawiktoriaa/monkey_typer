@@ -65,18 +65,22 @@ Wyniki są zapisywane do pliku: wyniki.txt
 ## ▶️ Uruchomienie
 
 ### Wymagania
-- C++
-- SFML
-- CMake
+
+* C++
+* SFML
+* CMake
+
+### Kroki
 
 ```bash
 cmake -S . -B build
 cmake --build build
 ./build/monkey_typer
+```
 
----
+Po zbudowaniu projektu aplikację można uruchamiać ponownie bez kompilacji:
 
-Po zbudowaniu projektu aplikację można uruchamiać ponownie:
 ```bash
 cd build
 ./monkey_typer
+```
