@@ -1,13 +1,34 @@
 # 🐵 Monkey Typer
 
-Gra typu „typing game” napisana w języku C++ z wykorzystaniem biblioteki SFML, w której gracz musi jak najszybciej wpisywać spadające słowa.
+Gra typu *typing game* napisana w języku C++ z wykorzystaniem biblioteki SFML.  
+Celem gracza jest jak najszybsze wpisywanie pojawiających się na ekranie słów.
 
-## 🎮 Rozgrywka
-Na ekranie pojawiają się słowa, które gracz musi wpisać z klawiatury.  
-Poprawne wpisanie słowa zwiększa wynik, natomiast pominięcie powoduje utratę życia.  
-Gra stopniowo zwiększa poziom trudności.
+---
+
+## 🎮 Gameplay
+
+Gracz wpisuje słowa wyświetlane na ekranie, zanim znikną.  
+Za każde poprawne słowo otrzymuje punkty, a pominięcie powoduje utratę życia.  
+Gra stopniowo przyspiesza, zwiększając poziom trudności.
+
+---
+
+## 📸 Gameplay
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3a952258-e4c2-42fc-8410-70cc88bf527b" width="400"/>
+  <img src="https://github.com/user-attachments/assets/3d8013da-9ea1-4045-bfaa-c4da8359e281" width="400"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e6e677b8-06f1-496c-8e50-06c1b4729937" width="400"/>
+  <img src="https://github.com/user-attachments/assets/e25af14c-96af-4492-b46f-d87438762836" width="400"/>
+</p>
+
+---
 
 ## ✨ Funkcjonalności
+
 - rozgrywka w czasie rzeczywistym
 - dynamiczne generowanie słów
 - system punktów i żyć
@@ -18,38 +39,27 @@ Gra stopniowo zwiększa poziom trudności.
 - konfiguracja gry z pliku
 - obsługa dźwięków i grafiki
 
+---
+
 ## 🛠️ Technologie
+
 - C++
 - SFML (grafika, dźwięk, obsługa okna)
 - programowanie obiektowe (OOP)
 - operacje na plikach (config, ranking)
 
-## 📁 Struktura projektu
-- `main.cpp` – punkt wejścia programu  
-- `Gra` – logika gry  
-- `Menu` – menu główne  
-- `Instrukcje` – ekran instrukcji  
-- `Konfiguracje` – wczytywanie ustawień  
-- `Slowo` – obsługa słów i logiki wpisywania  
-- `dane/` – zasoby (czcionki, dźwięki, obrazy, config, lista słów)
+---
 
-## ⚙️ Konfiguracja
-Gra korzysta z pliku `config.txt`, w którym można zmienić m.in.:
-- rozmiar okna
-- liczbę żyć
-- czas gry
-- rozmiary czcionek
+## 🏆 Wyniki
 
-## 🏆 Ranking
 Po zakończeniu rozgrywki wyświetlane jest podsumowanie zawierające:
 - nick gracza
 - liczbę poprawnie wpisanych słów
 - czas gry
 
-Wyniki są zapisywane do pliku:
-`dane/wyniki.txt`
+Wyniki są zapisywane do pliku: wyniki.txt
 
-Dodatkowo po zakończeniu gry wyświetlany jest ranking najlepszych wyników.
+---
 
 ## ▶️ Uruchomienie
 
@@ -63,4 +73,9 @@ Dodatkowo po zakończeniu gry wyświetlany jest ranking najlepszych wyników.
 ```bash
 cmake -S . -B build
 cmake --build build
-./build/monkey_typer
+./build/monkey_typer```
+
+Po zbudowaniu projektu aplikację można uruchamiać ponownie:
+```bash
+cd build
+./monkey_typer
